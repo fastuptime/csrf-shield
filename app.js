@@ -64,7 +64,7 @@ module.exports = function(options = {}) {
                 const { valid, reason } = verifyToken(token, ip, userAgent);
 
                 if (!valid) {
-                    return res.status(403).json({ status: false, message: `Invalid CSRF token: ${reason}` });
+                    return res.status(403).json({ status: false, message: `CSRF_TOKEN_INVALID`, details: reason });
                 }
 
                 next();
