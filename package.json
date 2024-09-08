@@ -1,0 +1,30 @@
+{
+  "name": "csrf-shield",
+  "version": "1.0.0",
+  "description": "CSRF protection middleware for Express.js applications.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "csrf",
+    "protection",
+    "middleware",
+    "express"
+  ],
+  "author": "Can",
+  "homepage": "https://github.com/fastuptime/csrf-shield#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastuptime/csrf-shield",
+    "license": "MIT"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
